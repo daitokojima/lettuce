@@ -61,7 +61,7 @@ export default function Sns() {
             ></Image>
           </div>
           <div className="flex gap-3 mb-14">
-            <a className="w-8 hover:opacity-70">
+            <a href="#"  className="w-8 hover:opacity-70 hover:cursor-pointer">
               <Image
                 src={"/img/facebook.svg"}
                 alt="sns2"
@@ -70,7 +70,7 @@ export default function Sns() {
                 layout="responsive"
               ></Image>
             </a>
-            <a className="w-8 hover:opacity-70">
+            <a href="#"  className="w-8 hover:opacity-70 hover:cursor-pointer">
               <Image
                 src={"/img/twitter.svg"}
                 alt="sns2"
@@ -79,7 +79,7 @@ export default function Sns() {
                 layout="responsive"
               ></Image>
             </a>
-            <a className="w-8 hover:opacity-70">
+            <a href="#"  className="w-8 hover:opacity-70 hover:cursor-pointer">
               <Image
                 src={"/img/youtube.svg"}
                 alt="sns2"
@@ -88,7 +88,7 @@ export default function Sns() {
                 layout="responsive"
               ></Image>
             </a>
-            <a className="w-8 hover:opacity-70">
+            <a href="#"  className="w-8 hover:opacity-70 hover:cursor-pointer">
               <Image
                 src={"/img/instagram.svg"}
                 alt="sns2"
@@ -111,7 +111,7 @@ export default function Sns() {
             layout="responsive"
           ></Image>
           </div>
-          <div className="absolute flex-col mx-auto -mt-36 px-8 text-white">
+          <div className="absolute flex-col mx-auto -mt-32 px-8 text-white">
             <h3 className="text-2xl font-bold pb-3">Plants Care Instruction</h3>
             <p className="text-sm pb-7">
               Each order includes a small care guide booklet.
