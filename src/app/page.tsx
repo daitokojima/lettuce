@@ -1,10 +1,13 @@
 import React from "react";
-import Test from "./components/footer";
 import Footer from "./components/footer";
+import Header from "./components/header";
+import Sns from "./components/sns";
 
 function page() {
   return (
     <div>
+      <Header/>
+      <Sns />
       <Footer />
     </div>
   );
