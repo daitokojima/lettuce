@@ -1,5 +1,5 @@
 import React from "react";
-import Test from "./components/test";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Sns from "./components/sns";
 
@@ -8,6 +8,7 @@ function page() {
     <div>
       <Header/>
       <Sns />
+      <Footer />
     </div>
   );
 }
