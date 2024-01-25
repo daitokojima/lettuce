@@ -6,13 +6,13 @@ services:
     volumes:
       - ./src:/usr/src/app
     working_dir: /usr/src/app
-    command: "npm install && npm run dev"
+    # command: "npm install && npm run dev"
     ports:
-      - "3002:3002"
+      - "3002:3000"
     environment:
       - NODE_ENV=development
-    networks:
-      - nginx
+    # networks:
+    #   - nginx
     tty: true
   nginx:
     image: nginx:alpine
