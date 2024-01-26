@@ -14,7 +14,7 @@ function plantText() {
                       layout="responsive"
                   ></Image>
                   <h2 className='font-serif pt-3'>High Quality Plants</h2>
-                  <p className='font-extralight'>A line about the service<br> you've mentioned above.</br></p>
+                  <p className='font-extralight'>A line about the service<br/> you&apos;ve mentioned above.</p>
                 </div>
                 <div className='flex'>
                   <Image
@@ -25,7 +25,7 @@ function plantText() {
                      layout="responsive"
                   ></Image>
                   <h2 className='font-serif pt-3'>Wide Plant Range</h2>
-                  <p className='font-extralight'>A line about the service<br> you've mentioned above.</br></p>
+                  <p className='font-extralight'>A line about the service<br/> you&apos;ve mentioned above.</p>
                 </div>
                 <div className='flex'>
                   <Image
@@ -36,7 +36,7 @@ function plantText() {
                      layout="responsive"
                   ></Image>
                   <h2 className='font-serif pt-3'>Fast Delivery</h2>
-                  <p className='font-extralight'>A line about the service<br> you've mentioned above.</br></p>
+                  <p className='font-extralight'>A line about the service<br/> you&apos;ve mentioned above.</p>
                 </div>
             </div>
         </div>
